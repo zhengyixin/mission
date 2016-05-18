@@ -1,0 +1,134 @@
+body{
+	background: #DEDEDE;
+	font-size: 14px;
+}
+.header{
+	max-width: 100%;
+	background: black;
+	height: 50px;
+	padding: 10px 20px;
+}
+.header .tab{
+	float: right;
+	color: white;
+	margin-top:15px;
+}
+.header ul li{
+	float: left;
+	list-style: disc;
+	margin-left: 20px;
+	width: 80px;
+}
+.aside{
+	float: right;
+	width:300px;
+	padding: 20px;
+	line-height: 1.5;
+	box-shadow: 10px 10px 5px #888;
+	background: #fff;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+.aside h2{
+	font-size: 16px;
+	padding: 10px 10px;
+	border-left: 3px solid #ccc;
+}
+.aside p{
+	padding: 10px 0;
+}
+.aside .hint{
+	color: grey;
+	font-size: 12px;
+	margin-left: 110px;
+}
+.aside .offset{
+	margin-left: 70px;
+}
+.aside .position{
+	vertical-align: top;
+	margin-left: -25px;
+}
+.aside textarea{
+	height: 100px;
+}
+.aside input[type="submit"]{
+	display: block;
+	padding: 10px 30px;
+	width: 300px;
+	background: #1B64BF;
+	color: #fff;
+	border-radius: 8px;
+}
+.article{
+	background: #fff;
+	margin:20px 390px 15px 30px;
+	box-shadow: 5px 5px 5px #888;
+	padding: 20px;
+}
+.article h1{
+	font-size: 24px;
+	padding: 15px;
+}
+.article h2{
+	font-size: 20px;
+	padding: 15px;
+	color: grey;
+}
+.article h3{
+	font-size: 16px;
+	padding: 15px;
+}
+.article p, .article ul{
+	padding: 15px;
+	line-height: 1.5;
+}
+.article .pic{
+	padding: 10px;
+	width: 100px;
+	height: 120px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 1.5;
+}
+.article:after{
+	content: '';
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.article img{
+	display: block;
+	width: 100px;
+}
+.article ol{
+	padding: 15px;
+	margin-left: 30px;
+}
+.article ol li{
+	list-style: decimal;
+	line-height: 1.5;
+}
+.article table{
+	border: 1px solid #ccc;
+	width: 100%;
+	line-height: 1.5;
+}
+.article table thead{
+	background: #111;
+	color: #fff;
+}
+.article table tfoot{
+	background: #ccc;
+}
+footer{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 30px;
+}
