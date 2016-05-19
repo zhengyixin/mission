@@ -6,11 +6,13 @@ body{
 	height: 1386px;
 	margin: 0 auto;
 }
+.context{
+	width: 892px;
+	margin: 0 auto;
+}
 .header{
 	border-bottom: 2px solid #938e8c;
-	width: 892px;
 	height: 61px;
-	margin: 0 auto;
 	line-height: 100px;
 	font-family: SimSun;
 }
@@ -27,9 +29,6 @@ body{
 	color: #d45d5c;
 }
 .nav{
-	width: 892px;
-	height: 61px;
-	margin: 0 auto;
 	margin-top: 20px;
 }
 .nav .pic{
@@ -37,7 +36,7 @@ body{
 	height: 301px;
 	background: url('../img/3.png');
 	position: relative;
-	display: inline-block;
+	float: left;
 }
 .nav .pic .blue, .nav .pic .pink{
 	width: 191px;
@@ -51,9 +50,9 @@ body{
 	right: 0;
 }
 .nav .text{
-	display: inline-block;
+	float: right;
 	width: 203px;
-	/*position: relative;*/
+	margin: -15px 0 0 15px;
 }
 .nav .text .p1{
 	border-top: 2px solid #cc8091;
@@ -95,111 +94,51 @@ body{
 	display: block;
 	margin: -5px 0 0 78px;
 }
-.aside{
-	float: right;
-	width:300px;
-	padding: 20px;
-	line-height: 1.5;
-	box-shadow: 10px 10px 5px #888;
-	background: #fff;
-	margin-right: 30px;
-	margin-top: 20px;
-}
-.aside h2{
-	font-size: 16px;
-	padding: 10px 10px;
-	border-left: 3px solid #ccc;
-}
-.aside p{
-	padding: 10px 0;
-}
-.aside .hint{
-	color: grey;
-	font-size: 12px;
-	margin-left: 110px;
-}
-.aside .offset{
-	margin-left: 70px;
-}
-.aside .position{
-	vertical-align: top;
-	margin-left: -25px;
-}
-.aside textarea{
-	height: 100px;
-}
-.aside input[type="submit"]{
-	display: block;
-	padding: 10px 30px;
-	width: 300px;
-	background: #1B64BF;
-	color: #fff;
-	border-radius: 8px;
-}
-.article{
-	background: #fff;
-	margin:20px 390px 15px 30px;
-	box-shadow: 5px 5px 5px #888;
-	padding: 20px;
-}
-.article h1{
-	font-size: 24px;
-	padding: 15px;
-}
-.article h2{
-	font-size: 20px;
-	padding: 15px;
-	color: grey;
-}
-.article h3{
-	font-size: 16px;
-	padding: 15px;
-}
-.article p, .article ul{
-	padding: 15px;
-	line-height: 1.5;
-}
-.article .pic{
-	padding: 10px;
-	width: 100px;
-	height: 120px;
-	border: 1px solid #ccc;
-	float: left;
-	margin-left: 30px;
-	margin-bottom: 10px;
-	text-align: center;
-	line-height: 1.5;
-}
-.article:after{
+.clear:after{
 	content: '';
+	clear: both;
 	display: block;
 	height: 0;
 	overflow: hidden;
-	clear: both;
 }
-.article img{
-	display: block;
-	width: 100px;
-}
-.article ol{
-	padding: 15px;
-	margin-left: 30px;
-}
-.article ol li{
-	list-style: decimal;
+section article{
+	display: inline-block;
+	width: 240px;
 	line-height: 1.5;
+	vertical-align: top;
 }
-.article table{
-	border: 1px solid #ccc;
-	width: 100%;
-	line-height: 1.5;
+section article h2{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #75b86b;
 }
-.article table thead{
-	background: #111;
-	color: #fff;
+section article p{
+	color: #231815;
+	font-family: Microsoft YaHei;
+	line-height: 16px;
+	opacity: 0.7; 
 }
-.article table tfoot{
-	background: #ccc;
+section .one{
+	width: 215px;
+	margin-left: 20px;
+}
+section article .how{
+	color: #d2994f;
+}
+section .two{
+	width: 150px;
+	margin-left: 20px;
+}
+section article .txt{
+	margin-top: 20px;
+}
+section article .pecent{
+	color: #cd4a48;
+	font-style: italic;
+}
+section article .when{
+	color: #cc7680;
 }
 footer{
 	background: #000;
