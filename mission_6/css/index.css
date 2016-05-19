@@ -53,8 +53,7 @@ body{
 .nav .text{
 	display: inline-block;
 	width: 203px;
-	/*margin-left: 15px;*/
-	border: 1px solid red;
+	/*position: relative;*/
 }
 .nav .text .p1{
 	border-top: 2px solid #cc8091;
@@ -62,7 +61,39 @@ body{
 	color: #000;
 	font-family: Microsoft YaHei;
 	text-decoration: underline;
-	padding-top: 40px;
+	padding-top: 10px;
+}
+.nav .text .p2{
+	font-family: KaiTi;
+	color: #676767;
+}
+.nav .text .p3{
+	color: #676767;
+	font-size: 116px;
+	color: #75b86b;
+	font-family: Microsoft YaHei;
+	font-style: italic;
+}
+.nav .text .p4{
+	color: #cc8091;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	position: relative;
+}
+.nav .text .p5{
+	font-size: 21px;
+	display: block;
+	margin: -48px 0 0 78px;
+}
+.nav .text .p6{
+	font-size: 55px;
+	display: block;
+	margin-top: -15px;
+}
+.nav .text .p7{
+	color: #555;
+	display: block;
+	margin: -5px 0 0 78px;
 }
 .aside{
 	float: right;
