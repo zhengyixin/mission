@@ -34,7 +34,7 @@ body{
 .nav .pic{
 	width: 641px;
 	height: 301px;
-	background: url('../img/3.png');
+	background: url('../img/pic1.png');
 	position: relative;
 	float: left;
 }
@@ -140,10 +140,156 @@ section article .pecent{
 section article .when{
 	color: #cc7680;
 }
-footer{
-	background: #000;
+.section{
+	margin-top:20px;
+}
+.section .left{
+	float: left;
+	width: 415px;
+}
+.section .left .title{
+	font-size: 42px;
+	color: #11456b;
+	font-family: SimHei;
+	font-weight: bold;
+	border-bottom: 2px solid #11456b;
+	padding-bottom: 5px;
+}
+.section .left p span{
+	font-size: 72px;
+	color: #f5e327;
+	font-style: italic;
+	font-weight: bold;
+	font-family: SimHei;
+}
+.section .left .intro span{
+	padding: 10px;
+}
+.section .left .fe{
+	font-size: 33px;
+	color: #11456b;
+}
+.section .left .intro{
+	line-height: 16px;
+	margin-top: 15px;
+}
+.section .left .pic2{
+	float: right;
+	padding: 10px;
+}
+.section .intro:first-letter{
+	float: left;
+	font-size:70px;
+	color: #f5e327;
+	font-family: "微软雅黑";
+	line-height: 70px;
+}
+.section .right{
+	float: right;
+	width: 458px;
+	position: relative;
+}
+.section .right .pic3{
+	display: block;
+	width: 100%;
+}
+.section .right .know{
+	height: 61px;
+	background: rgba(140,137,134,0.5);
+	font-family: "微软雅黑";
+	line-height: 61px;
+	position: absolute;
+	top: 196px;
+	width: 418px;
+	padding-left: 40px;
+}
+.section .right .k1{
+	font-size: 26px;
 	color: #fff;
-	text-align: center;
-	padding: 20px;
+	border-left: 3px solid #72b16a;
+	padding-left: 10px;
+	height: 44px;
+	line-height: 44px;
+	display: inline-block;
+	margin-top: 10px;
+}
+.section .right .k2{
+	color: #72b16a;
+	font-style: italic;
+	letter-spacing: 5px;
+	padding-left: 5px;
+}
+.section .k3{
+	width: 459px;
+	background: rgb(238,237,214);
 	margin-top: 30px;
+	height: 340px;
+}
+.section .k3 .pp{
+	background: url('../img/triangle.png') no-repeat;
+	padding-left: 15px;
+	padding-top: 30px;
+	line-height: 20px;
+	height: 30px;
+	margin-left: 20px;
+	background-position: 0% 70%;
+}
+.section .k3 p .h1{
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: "宋体";
+
+}
+.section .k3 .h2{
+	height: 100px;
+	width: 220px;
+	background: rgb(212,93,92);
+	color: #fff;
+	font-family: "黑体";
+	padding: 30px 20px;
+	float: left;
+}
+.section .k3 .h2 .zero{
+	font-size: 110px;
+	border-right: 2px solid #fff;
+	padding: 0 5px;
+	display: block;
+	float: left;
+}
+.section .k3 .h2 .hh{
+	line-height: 20px;
+	display: block;
+	float: right;
+	padding-top: 12px;
+}
+.section .k3 .h2 .three{
+	font-size: 16px;
+}
+.section .k3 .h3{
+	float: right;
+	position: relative;
+	width: 170px;
+	font-size: 14px;
+	color: #5a5b5b;
+	font-style: italic;
+	font-family: "黑体";
+	line-height: 16px;
+}
+.section .k3 .h3 .letter{
+	color: #d45d5c;
+	font-size: 72px;
+	font-family: "黑体";
+	position: absolute;
+	left: -75px;
+	top: 10px;
+}
+.section .k3 .h3 .ll{
+	left: 70px;
+	top: 90px;
+}
+footer{
+	color: #d45d5c;
+	text-align: right;
+	border-top: 1px solid #938e8c;
+	margin-top: 10px;
 }
